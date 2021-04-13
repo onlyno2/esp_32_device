@@ -1,0 +1,33 @@
+menu "MQTT Client Configuration"
+
+  config MQTT_HOST
+      string "MQTT Host"
+      default ""
+      help
+          Máy chủ MQTT cần kết nối tới
+
+  config MQTT_PORT
+      string "MQTT Port"
+      default 1883
+      help
+          Cổng kết nối với máy chủ MQTT
+
+  config MQTT_USERNAME
+    string "MQTT Username"
+    default "token-auth"
+    help
+        Tên người dùng cho kết nối
+
+config MQTT_CLIENTID
+    string "MQTT Clientid"
+    default ""
+    help
+        Định danh người dùng
+  
+  config MQTT_PASSWORD
+      string "MQTT Password"
+      default ""
+      help
+          Mật khẩu
+    
+endmenu
