@@ -9,6 +9,11 @@
     "task.h": "c",
     "array": "c",
     "string": "c",
-    "string_view": "c"
+    "string_view": "c",
+    "dht.h": "c",
+    "event_string_formats.h": "c",
+    "mqtt_client.h": "c",
+    "stdio.h": "c",
+    "cstdio": "c"
   }
 }
